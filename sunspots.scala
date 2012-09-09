@@ -1,7 +1,3 @@
-#!/bin/sh
-exec scala "$0" "$@"
-!#
-
 case class Point(x: Int, y: Int, value: Int) {
   def toString(score: Int) = "(%s,%s score:%s)".format(x, y, score)
 }
